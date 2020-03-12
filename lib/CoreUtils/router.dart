@@ -9,7 +9,8 @@ import 'package:muin/pages/page_quiz_list.dart';
 import 'package:muin/pages/page_match.dart';
 import 'package:muin/pages/page_palacement.dart';
 import 'package:muin/pages/page_findout.dart';
-import 'package:muin/pages/page_game_color_number.dart';
+//import 'package:muin/pages/page_game_color_number.dart';
+import 'package:muin/pages/page_game_colors_numbers.dart';
 
 /*
 * kullanim
@@ -63,7 +64,7 @@ class RouteGenerator{
       }
 
       case PageRouteGameColorNumber: {
-        return MaterialPageRoute(builder: (_) => PageGameColorNumber());
+        return MaterialPageRoute(builder: (_) => PageGameColorsNumbers());
       }
 
 

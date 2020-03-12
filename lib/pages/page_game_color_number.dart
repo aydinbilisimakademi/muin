@@ -185,3 +185,58 @@ class _BoxState extends State<Box> {
   }
 }
 
+
+/*
+* sistem gelistirmeleri
+*
+* patlayan nokta ne? gerekli bilgiler neler?
+* 2 bilgi var renk ve sayi
+* renk Colors.red ve red seklinde
+* sayilar 1 ve one seklinde
+* bir bilgi 2 farkli sekilde tutuluyor.
+*
+* nesne icinde 4 alan acmak mi daha mantikli yoksa donusturucu bir function mu?
+* ayrica generator ve entity classi birlestirmek iyi bir fikir mi?
+*
+* 1-one donusumu entity sorumlulugunda olan bir bilgidir get-set
+*
+* getNumberInt, getNumberString , getColorObj, getColorString seklinde olmasi iyi bir fikir.
+*
+* ayrica entity objesini yaratip birakmak degil kontrol etmek sorundayim.
+* cunku su listede olmayan bir eleman sorabiliyorum..
+* bu durumun degismesi gerekir
+*
+* bir diger ayrintida kullanici dogru bilirse butonu kullanamaz hale getirmeli-rengini degistirmeli
+* yanlis basarsa puanini dusurmeliyim.
+*
+* ayrica hepsi tamamlandiginda result a ulasmali yani uygulamayi birtirmelidir.
+*
+* eklenice kfeature lar ve yapilacak duzeltmeler bunlar
+*
+* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -20,7 +20,11 @@ class PageHome extends StatelessWidget {
             Icon(Icons.message, size: 30),
           ],
           onTap: (index) {
-            //Handle button tap
+            if(index == 0){ debugPrint("sifirinci");}
+            if(index == 1){ debugPrint("birinci");}
+            if(index == 2){ debugPrint("ikinci");}
+            if(index == 3){ debugPrint("üçüncü");}
+            //https://www.youtube.com/watch?v=dvnDU06LeMk
           },
         ),
         body: Container(

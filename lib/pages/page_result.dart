@@ -19,7 +19,8 @@ class PageResult extends StatelessWidget {
             children: <Widget>[
               Text("Test Sonucu", style: TextStyle(fontSize: 30, color: Colors.black),),
               SizedBox(height: 30,),
-              WidgetResult(key: key, deger: this.sonuc/100,),
+              //toStringAsFixed(n.truncateToDouble() == n ? 0 : 2); 15.00 => 15 15.50 ==> 15.50
+              WidgetResult(key: key, deger: (this.sonuc/100),),
               Divider(),
               Container(
                 margin: EdgeInsets.only(top: 20),

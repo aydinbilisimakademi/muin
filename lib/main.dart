@@ -1,10 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:muin/CoreUtils/router.dart';
 import 'package:muin/CoreUtils/routing_constants.dart';
 import 'package:provider/provider.dart';
 import 'package:muin/states/state_user.dart';
 
-void main() => runApp(MuinApp());
+void main() {
+  //rotetion u durdurmak
+  //kaynak
+  //https://stackoverflow.com/questions/49418332/flutter-how-to-prevent-device-orientation-changes-and-force-portrait
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+  runApp(MuinApp());
+}
 
 class MuinApp extends StatelessWidget {
   @override
